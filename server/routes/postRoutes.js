@@ -7,7 +7,6 @@ dotenv.config()
 
 const router = express.Router()
 
-const client = new UploadClient({ publicKey: process.env.UPLOADCARE_PUBLIC_KEY })
 
 router.route('/').get(async (req, res) => {
     try {
