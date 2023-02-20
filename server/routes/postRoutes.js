@@ -1,7 +1,5 @@
 import express from "express";
 import * as dotenv from 'dotenv'
-import uploadcare from 'uploadcare-widget'
-import { UploadClient } from '@uploadcare/upload-client'
 
 import Post from '../mongodb/models/post.js'
 
